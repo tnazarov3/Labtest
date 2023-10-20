@@ -4,7 +4,7 @@ from telebot.types import KeyboardButton, ReplyKeyboardMarkup, WebAppInfo
 
 bot = telebot.TeleBot('6362714649:AAEOjpU0NL6pu_DypST1JLIybi9U_WvxVMM')
 
-web_app = WebAppInfo(url="https://tnazarov3.github.io/LabInterface")
+web_app = WebAppInfo(url="https://tnazarov3.github.io/Labtest")
 
 @bot.message_handler(content_types="web_app_data") #получаем отправленные данные 
 def answer(webAppMes):
